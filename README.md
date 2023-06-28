@@ -1,2 +1,22 @@
 # UserAuthentication
-project is a backend application that enables user authentication and registration functionality. Built using Java and the Spring framework, it provides a secure and efficient way for users to create accounts, log in, and access protected resources within the system.
+
+User Login and Registration Backend Application with Spring Boot
+
+
+Description:
+
+
+In this Java tutorial, I have developed a complete backend application for user login and registration using Spring Boot. The application includes features such as email verification links to ensure secure user registration.
+
+Key highlights:
+
+
+Utilized Spring Boot framework for rapid development and easy configuration.
+
+Implemented user authentication and authorization using Spring Security.
+
+Integrated email verification links for validating user registrations.
+
+Leveraged Spring Data JPA for database operations and data persistence.
+
+Applied best practices for security and password encryption using BCryptPasswordEncoder.
