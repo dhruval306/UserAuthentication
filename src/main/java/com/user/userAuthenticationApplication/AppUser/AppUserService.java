@@ -45,6 +45,10 @@ public class AppUserService implements UserDetailsService {
 
         confirmationTokenService.saveConfirmationToken(confirmationToken);
 
-       return "User Added";
+       return token;
+    }
+
+    public void enableAppUser(String email) {
+        appUserRepository.enableUser(email);
     }
 }
